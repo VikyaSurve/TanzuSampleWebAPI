@@ -2,19 +2,17 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="TanzuSampleWebAPI/Controllers/WeatherViewModel.cs">
     <Files>
       <File FileName="TanzuSampleWebAPI/WeatherForecast.cs" Line="16" Column="1" />
-      <File FileName="TanzuSampleWebAPI/Startup.cs" Line="1" Column="1" />
-      <File FileName="TanzuSampleWebAPI/Controllers/WeatherForecastController.cs" Line="94" Column="14" />
-      <File FileName="TanzuSampleWebAPI/Program.cs" Line="1" Column="1" />
+      <File FileName="TanzuSampleWebAPI/Startup.cs" />
+      <File FileName="TanzuSampleWebAPI/Controllers/WeatherForecastController.cs" />
+      <File FileName="TanzuSampleWebAPI/Program.cs" />
       <File FileName="TanzuSampleWebAPI/Controllers/WeatherViewModel.cs" Line="79" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TanzuSampleWebAPI" expanded="True">
-            <Node name="TanzuSampleWebAPI" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="WeatherViewModel.cs" selected="True" />
-              </Node>
+            <Node name="TanzuSampleWebAPI" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
         </State>

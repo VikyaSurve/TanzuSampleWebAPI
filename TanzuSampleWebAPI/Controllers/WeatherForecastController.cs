@@ -15,7 +15,7 @@ namespace TanzuSampleWebAPI.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Chennai", "Pune", "Hyderabad", "Kolkata", "Delhi", "Punjab", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Chennai", "Pune", "Hyderabad", "Kolkata", "Delhi", "Punjab"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
@@ -33,7 +33,7 @@ namespace TanzuSampleWebAPI.Controllers
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
-                Summary = WeatherDetail("Mumbai")
+                Summary = WeatherDetail(Summaries[rng.Next(Summaries.Length)]).ToString()
             })
             .ToArray();
         } 
